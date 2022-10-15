@@ -50,8 +50,8 @@ class CalculatorTest {
 	@Test
 	void testSubtract() {
         Calculator calculator = new Calculator(null);
-        int result = calculator.subtract(5, 4);
-        Assertions.assertEquals(result, 1);    
+        int result = calculator.subtract(4, 4);
+        Assertions.assertEquals(result, 0);
 	}
 	
 }
